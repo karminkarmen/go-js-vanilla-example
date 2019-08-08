@@ -1,0 +1,1 @@
+# go-js-vanilla-example
