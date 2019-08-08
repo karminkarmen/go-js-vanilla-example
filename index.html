@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test project - vanilla js</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <p>Test project - vanilla JS</p>
+      <nav>
+        <button class="save-jpg">save in jpg</button>
+        <button class="undo">undo</button>
+        <button class="redo">redo</button>
+
+        <button class="load">load</button>
+        <button class="save">save</button>
+      </nav>
+    </header>
+
+    <section>
+      <div id="palette-content"></div>
+      <div id="diagram-content"></div>
+      <div id="diagram-overview"></div>
+      <div id="diagram-inspector"></div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/2.0.1/go.js"></script>
+    <script src="Extensions/ZoomSlider/ZoomSlider.js"></script>
+    <script src="Extensions/DataInspector/DataInspector.js"></script>
+    <script src="configs.js"></script>
+    <script src="data.js"></script>
+    <script src="Managers/StorageManager.js"></script>
+    <script src="Managers/DiagramManager.js"></script>
+    <script src="Managers/PaletteManager.js"></script>
+    <script src="TemplateFactories/DefaultGroupFactory.js"></script>
+    <script src="TemplateFactories/DefaultLinkFactory.js"></script>
+    <script src="TemplateFactories/DefaultNodeFactory.js"></script>
+    <script src="TemplateProviders/TemplateProvider.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
