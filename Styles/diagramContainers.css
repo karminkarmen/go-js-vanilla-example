@@ -1,0 +1,31 @@
+#diagram-overview {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 137px;
+  left: 220px;
+  background-color: white;
+  z-index: 300;
+  border: solid 1px #9e9e9e; /* Grey 500 */
+}
+
+#diagram-content {
+  height: 800px;
+  width: calc(100% - 520px);
+  display: inline-block;
+  border: 1px solid #9e9e9e; /* Grey 500 */
+}
+
+#palette-content {
+  height: 800px;
+  width: 200px;
+  display: inline-block;
+  border: 1px solid #9e9e9e; /* Grey 500 */
+}
+
+#diagram-inspector {
+  height: 800px;
+  width: 300px;
+  display: inline-block;
+  border: 1px solid #9e9e9e; /* Grey 500 */
+}

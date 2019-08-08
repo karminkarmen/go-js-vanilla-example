@@ -1,0 +1,21 @@
+
+/*
+  Grey color palette
+  https://www.google.com/design/spec/style/color.html
+/*   #FAFAFA; /* Grey 50  */
+/*   #F5F5F5; /* Grey 100 */
+/*   #EEEEEE; /* Grey 200 */
+/*   #E0E0E0; /* Grey 300 */
+/*   #BDBDBD; /* Grey 400 */
+/*   #9E9E9E; /* Grey 500 */
+/*   #757575; /* Grey 600 */
+/*   #616161; /* Grey 700 */
+/*   #424242; /* Grey 800 */
+/*   #212121; /* Grey 900 */
+
+
+@import "./buttons.css";
+@import "./header.css";
+@import "./diagramContainers.css";
+@import "../Extensions/DataInspector/DataInspector.css";
+@import "../Extensions/ZoomSlider/ZoomSlider.css";

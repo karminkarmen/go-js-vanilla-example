@@ -1,0 +1,10 @@
+button {
+  border: none;
+  font: 13px lato;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+button:hover {
+  background: #e0e0e0; /* Grey 300 */
+}
